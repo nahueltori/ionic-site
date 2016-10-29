@@ -19,9 +19,9 @@ next_page_link: /docs/v2/getting-started/tutorial/adding-pages
 
 Let's walk through the anatomy of an Ionic 2 app. Inside of the folder that was created, we have a typical [Cordova](/docs/what-is/#cordova) project structure where we can install native plugins, and create platform-specific project files.
 
-<h3 class="file-title">./src/index.html</h3>
+<h3 class="file-title">./www/index.html</h3>
 
-`src/index.html` is the main entry point for the app, though its purpose is to set up script and CSS includes and bootstrap, or start running, our app. We won't spend much of our time in this file.
+`www/index.html` is the main entry point for the app, though its purpose is to set up script and CSS includes and bootstrap, or start running, our app. We won't spend much of our time in this file.
 
 For your app to function, Ionic looks for the `<ion-app>` tag in your HTML. In this example we have:
 
